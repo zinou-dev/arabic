@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;600;700;800;900&family=Cairo&family=Noto+Nastaliq+Urdu&display=swap');
+.head {
+    height: 70px;
+    background-color: #323232;
+    margin: -8px;
+    position: fixed;
+    width:100%;
+    z-index: 999999999999999999999999;
+}
+.headimg{
+    height: 69px;
+}
+nav {
+    position: relative;
+    left: 150px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+    text-decoration: none;
+}
+.home{
+    text-decoration: none;
+    color: #959595;
+    position: relative;
+    left: -83px;
+    font-family: sans-serif;
+    top: -57px;
+    font-size: 38px;
+    transition: 0.5s;
+    padding: 0 10px;
+}
+.home:hover{
+    color: white;
+    transition:0.5s;
+}
+.home::before{
+    content: '';
+    position: absolute;
+    width:0;
+    border-radius: 20px;
+    left: 0;
+    bottom:-7px;
+    height: 3px;
+    background-color: #ff0000;
+    transition: 0.4s;
+}
+.home:hover::before{
+    content: '';
+    position: absolute;
+    width:100%;
+    border-radius: 20px;
+    left: 0;
+    bottom:-7px;
+    height: 3px;
+    background-color: #ff0000;
+transition: 0.4s;
+}
+.about{
+    text-decoration: none;
+    color: #959595;
+    position: relative;
+    top: -57px;
+    left: -70px;
+    font-family: sans-serif;
+    font-size: 40px;
+    transition: 0.5s;
+    padding: 0 10px;
+}
+.about:hover{
+    color: white;
+    transition: 0.5s;
+}
+.about::before{
+    content: '';
+    border-radius: 20px;
+    position: absolute;
+    width:00;
+    left: 0;
+    bottom:-7px;
+    height: 3px;
+    background-color: #ff0000;
+    transition: 0.4s;
+}
+.about:hover::before{
+    content: '';
+    position: absolute;
+    width:100%;
+    border-radius: 20px;
+    left: 0;
+    bottom:-7px;
+    height: 3px;
+    background-color: #ff0000;
+    transition: 0.4s;
+}
+.contact{
+    text-decoration: none;
+    color: #959595;
+    position: relative;
+    top: -57px;
+    left: -61px;
+    font-family: sans-serif;
+    font-size: 36px;
+    transition: 0.5s;
+    padding: 0 10px;
+}
+.contact:hover{
+    color: white;
+}
+.contact::before{
+    content: '';
+    border-radius: 20px;
+    position: absolute;
+    width:0;
+    left: 0;
+    bottom:-7px;
+    height: 3px;
+    transition:0.4s;
+    background-color: #ff0000;
+}
+.contact:hover::before{
+    content: '';
+    position: absolute;
+    width:100%;
+    border-radius: 20px;
+    left: 0;
+    bottom:-7px;
+    height: 3px;
+    background-color: #ff0000;
+    transition: 0.4s;
+}
+.began{
+    position: relative;
+    top: 70px;
+    width: 414px;
+    margin: -8px;
+}
+.in1{
+    width: 414px;
+    z-index: 5555555;
+    height: 100px;
+    background-color: #bc884e;
+    position: relative;
+    top: -19px;
+    margin: -8px;
+    box-shadow: #bc884e 0px -33px 25px;
+}
+.كتيبة{
+    color: white;
+    position: relative;
+    font-size: 30px;
+    font-family: 'Alexandria',sans-serif;
+    left: 75px;
+    top: 19px;
+}
+.haitem{
+    width: 394px;
+    position: relative;
+    margin: -8px;
+    border: solid 1px #323232;
+    box-sizing: border-box;
+    border-radius: 24px;
+    left: 13px;
+    top: 13px;
+}
+.haitem-w{
+    font-size: 30px;
+    font-family: 'Alexandria',sans-serif;
+    color: #4dd3c6;
+    position: relative;
+    bottom: 58px;
+    left: 128px;
+}
+.haitem-ex{
+    font-size: 20px;
+    color: white;
+    font-family: 'Alexandria',sans-serif;
+    position: relative;
+    bottom: 50px;
+    left: 68px;
+}
+.nafis{
+    width: 394px;
+    position: relative;
+    margin: -8px;
+    border: solid 1px #323232;
+    box-sizing: border-box;
+    border-radius: 24px;
+    left: 13px;
+    top: 0px;
+}
+.nafis-ex{
+    font-size: 20px;
+    color: white;
+    font-family: 'Alexandria',sans-serif;
+    position: relative;
+    bottom: 31px;
+    left: 123px;
+}
+.cina{
+    width: 394px;
+    position: relative;
+    margin: -8px;
+    border: solid 1px #323232;
+    box-sizing: border-box;
+    border-radius: 24px;
+    left: 13px;
+    top: 24px;
+}
+.cina-w{
+    font-size: 30px;
+    font-family: 'Alexandria',sans-serif;
+    color: #4dd3c6;
+    position: relative;
+    bottom: 58px;
+    left: 128px;
+}
+.cina-ex{
+    font-size: 20px;
+    color: white;
+    font-family: 'Alexandria',sans-serif;
+    position: relative;
+    bottom: 50px;
+    left: 93px;
+}
+.khaled{
+    width: 394px;
+    position: relative;
+    margin: -8px;
+    border: solid 1px #323232;
+    box-sizing: border-box;
+    border-radius: 24px;
+    left: 13px;
+    top: 24px;
+}
+.khaled-w{
+    font-size: 30px;
+    font-family: 'Alexandria',sans-serif;
+    color: #4dd3c6;
+    position: relative;
+    bottom: 58px;
+    left: 128px;
+}
+.khaled-ex{
+    font-size: 20px;
+    color: white;
+    font-family: 'Alexandria',sans-serif;
+    position: relative;
+    bottom: 50px;
+    left: 63px;
+}
+
+.badis{
+    width: 394px;
+    position: relative;
+    margin: -8px;
+    border: solid 1px #323232;
+    box-sizing: border-box;
+    border-radius: 24px;
+    left: 13px;
+    top: 24px;
+}
+.badis-w{
+    font-size: 30px;
+    font-family: 'Alexandria',sans-serif;
+    color: #4dd3c6;
+    position: relative;
+    bottom: 58px;
+    left: 128px;
+}
+.badis-ex{
+    font-size: 20px;
+    color: white;
+    font-family: 'Alexandria',sans-serif;
+    position: relative;
+    bottom: 50px;
+    left: 18px;
+}
+.math{
+    width: 394px;
+    position: relative;
+    margin: -8px;
+    border: solid 1px #323232;
+    box-sizing: border-box;
+    border-radius: 24px;
+    left: 13px;
+    top: 24px;
+}
+.math-w{
+    font-size: 30px;
+    font-family: 'Alexandria',sans-serif;
+    color: #4dd3c6;
+    position: relative;
+    bottom: 58px;
+    left: 128px;
+}
+.math-ex{
+    font-size: 18px;
+    color: white;
+    font-family: 'Alexandria',sans-serif;
+    position: relative;
+    bottom: 50px;
+    left: 18px;
+}
+.doctor{
+    width: 394px;
+    position: relative;
+    margin: -8px;
+    border: solid 1px #323232;
+    box-sizing: border-box;
+    border-radius: 24px;
+    left: 13px;
+    top: 24px;
+}
+.doctor-w{
+    font-size: 30px;
+    font-family: 'Alexandria',sans-serif;
+    color: #4dd3c6;
+    position: relative;
+    bottom: 58px;
+    left: 46px;
+}
+.doctor-ex{
+    font-size: 18px;
+    color: white;
+    font-family: 'Alexandria',sans-serif;
+    position: relative;
+    bottom: 50px;
+    left: 132px;
+}

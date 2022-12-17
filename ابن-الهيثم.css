@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;600;700;800;900&family=Cairo&family=Noto+Nastaliq+Urdu&display=swap');
+body{
+    background-color: #181818;
+}
+.title{
+    color: #4dd3c6;
+    position: relative;
+    bottom: 71px;
+    left: 108px;
+    font-size: 54px;
+    font-family: 'Noto Nastaliq Urdu';
+}
+.big-img{
+    border: 1px #323232;
+    color: white;
+    position: relative;
+    top: 61px;
+    width: -webkit-fill-available;
+    margin: -8px;
+}
+.head {
+    height: 70px;
+    background-color: #323232;
+    margin: -8px;
+    position: fixed;
+    width:100%;
+    z-index: 999999999999999999999999;}
+.headimg{
+    height: 69px;}
+nav {
+    position: relative;
+    left: 150px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+    text-decoration: none;}
+.home{
+    text-decoration: none;
+    color: #959595;
+    position: relative;
+    left: -83px;
+    font-family: sans-serif;
+    top: -57px;
+    font-size: 38px;
+    transition: 0.5s;
+    padding: 0 10px;}
+.home:hover{
+    color: white;
+    transition:0.5s;}
+.home::before{
+    content: '';
+    position: absolute;
+    width:0;
+    border-radius: 20px;
+    left: 0;
+    bottom:-7px;
+    height: 3px;
+    background-color: #ff0000;
+    transition: 0.4s;}
+.home:hover::before{
+    content: '';
+    position: absolute;
+    width:100%;
+    border-radius: 20px;
+    left: 0;
+    bottom:-7px;
+    height: 3px;
+    background-color: #ff0000;
+transition: 0.4s;}
+.about{
+    text-decoration: none;
+    color: #959595;
+    position: relative;
+    top: -57px;
+    left: -70px;
+    font-family: sans-serif;
+    font-size: 40px;
+    transition: 0.5s;
+    padding: 0 10px;}
+.about:hover{
+    color: white;
+    transition: 0.5s;}
+.about::before{
+    content: '';
+    border-radius: 20px;
+    position: absolute;
+    width:00;
+    left: 0;
+    bottom:-7px;
+    height: 3px;
+    background-color: #ff0000;
+    transition: 0.4s;}
+.about:hover::before{
+    content: '';
+    position: absolute;
+    width:100%;
+    border-radius: 20px;
+    left: 0;
+    bottom:-7px;
+    height: 3px;
+    background-color: #ff0000;
+    transition: 0.4s;}
+.contact{
+    text-decoration: none;
+    color: #959595;
+    position: relative;
+    top: -57px;
+    left: -61px;
+    font-family: sans-serif;
+    font-size: 36px;
+    transition: 0.5s;
+    padding: 0 10px;}
+.contact:hover{
+    color: white;}
+.contact::before{
+    content: '';
+    border-radius: 20px;
+    position: absolute;
+    width:0;
+    left: 0;
+    bottom:-7px;
+    height: 3px;
+    transition:0.4s;
+    background-color: #ff0000;}
+.contact:hover::before{
+    content: '';
+    position: absolute;
+    width:100%;
+    border-radius: 20px;
+    left: 0;
+    bottom:-7px;
+    height: 3px;
+    background-color: #ff0000;
+    transition: 0.4s;}
+    .تعريف{
+        color: white;
+        font-size: 25.5px;
+        position: relative;
+        top: -114px;
+        left: -4px;
+        font-weight: 500;
+        line-height: 78px;
+        font-family: 'Alexandria';
+        text-align: right;
+    }
+    .تعريف2{
+        color: white;
+        font-size: 25.5px;
+        position: relative;
+        top: -114px;
+        left: -4px;
+        font-weight: 500;
+        line-height: 78px;
+        font-family: 'Alexandria';
+        text-align: right;
+    }
+    .تعريف-عنوان{
+        color: white;
+        font-size: 42.5px;
+        position: relative;
+        top: -114px;
+        left: -4px;
+        font-weight: 500;
+        line-height: 78px;
+        font-family: 'Alexandria';
+        text-align: right;
+        text-decoration: underline;
+    }
+    .تعريف3{
+        color: white;
+        font-size: 25.5px;
+        position: relative;
+        top: -114px;
+        left: -4px;
+        font-weight: 500;
+        line-height: 78px;
+        font-family: 'Alexandria';
+        text-align: right;
+    }
+    .تعريف4{
+        color: white;
+        font-size: 25.5px;
+        position: relative;
+        top: -114px;
+        left: -4px;
+        font-weight: 500;
+        line-height: 78px;
+        font-family: 'Alexandria';
+        text-align: right;
+    }
+    .تعريف5{
+        color: white;
+        font-size: 25.5px;
+        position: relative;
+        left: -4px;
+        bottom: 132px;
+        font-weight: 500;
+        line-height: 78px;
+        font-family: 'Alexandria';
+        text-align: right;
+    }
+    
