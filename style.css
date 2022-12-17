@@ -163,20 +163,20 @@ transition: 0.4s;
     left: 13px;
     top: 13px;
 }
-.haitem-w{
+.haitem-w {
     font-size: 30px;
     font-family: 'Alexandria',sans-serif;
     color: #4dd3c6;
     position: relative;
-    bottom: 58px;
+    bottom: 95px;
     left: 128px;
 }
-.haitem-ex{
+.haitem-ex {
     font-size: 20px;
     color: white;
     font-family: 'Alexandria',sans-serif;
     position: relative;
-    bottom: 50px;
+    bottom: 85px;
     left: 68px;
 }
 .nafis{
@@ -233,20 +233,20 @@ transition: 0.4s;
     left: 13px;
     top: 24px;
 }
-.khaled-w{
+.khaled-w {
     font-size: 30px;
     font-family: 'Alexandria',sans-serif;
     color: #4dd3c6;
     position: relative;
-    bottom: 58px;
+    bottom: 88px;
     left: 128px;
 }
-.khaled-ex{
+.khaled-ex {
     font-size: 20px;
     color: white;
     font-family: 'Alexandria',sans-serif;
     position: relative;
-    bottom: 50px;
+    bottom: 76px;
     left: 63px;
 }
 
