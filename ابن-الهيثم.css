@@ -2,11 +2,11 @@
 body{
     background-color: #181818;
 }
-.title{
+.title {
     color: #4dd3c6;
     position: relative;
     bottom: 71px;
-    left: 108px;
+    left: 30px;
     font-size: 54px;
     font-family: 'Noto Nastaliq Urdu';
 }
