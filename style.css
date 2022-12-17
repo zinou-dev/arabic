@@ -260,12 +260,12 @@ transition: 0.4s;
     left: 13px;
     top: 24px;
 }
-.badis-w{
+.badis-w {
     font-size: 30px;
     font-family: 'Alexandria',sans-serif;
     color: #4dd3c6;
     position: relative;
-    bottom: 58px;
+    bottom: 92px;
     left: 128px;
 }
 .badis-ex {
@@ -273,8 +273,8 @@ transition: 0.4s;
     color: white;
     font-family: 'Alexandria',sans-serif;
     position: relative;
-    bottom: 50px;
-    left: 103px;
+    bottom: 75px;
+    left: 40px;
 }
 .math{
     width: 394px;
